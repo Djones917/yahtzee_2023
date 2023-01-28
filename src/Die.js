@@ -3,7 +3,7 @@ import "./Die.css";
 
 class Die extends Component {
   handleClick() {
-
+     this.props.handleClick(this.props.idx);
   }
   render() {
     return (
